@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Budzet</title>
+	<link rel="stylesheet" type="text/css" href="../CSS/stil.css">
+</head>
+<body>
+	<div id="Cont_Kupit">
+
+		<label id="Kupiti">
+			Kupiti
+		</label>
+
+		<label id="labelArtikal">
+			Artikal
+		</label>
+		<input type="text" name="Artikal" id="Artikal">
+		<input type="submit" name="Dodaj" placeholder="Dodaj" id="Dodaj" value="Dodaj" onclick="return onclickValidateArtikal()">
+		<ul>
+			<li> 3 hljeba <input type="checkbox" name="" ></li>
+			<li> Skajusa <input type="checkbox" name=""></li>
+		</ul>
+	</div>
+	<div id="Cont_Stanje">
+		<div style="text-align: center;">
+
+		<label id="ST">
+			Stanje
+		</label>
+		</br>
+		<label id="Stanje"> 
+			0 KM
+		</label>
+	</div>
+
+	</br>
+	
+	
+	<label class="Lab">
+	Potroseno
+</label>
+<input type="text" name="Potroseno" id="Potroseno">
+<input type="submit" name="submit" id="Potr" value="Unesi" onclick="return onclickValidateUnos()">
+</br>
+
+<label class="Lab">
+	Dodaj Cimera
+</label>
+<input type="text" name="name" id="Stanar" >
+<input type="Submit" name="Stanar" placeholder="Stanar" id="Sta" value="Unesi" onclick="return onclickValidateDodaj()">
+</br>
+<label id="Mjes">
+	Novi Mjesec
+</label>
+	<a href="novimjesec.html"><input type="Submit" name="Dugme" id="NoviMjesec" value="Unesi"></a>
+</br>
+
+</div>
+<div id="Cont_Stanari">
+	<label id="Cimeri">
+		Cimeri
+	</label>
+</div>
+</body>
+
+<script type="text/javascript" src="../JavaScript/ValidacijaEvidencije.js"></script>
+</html>

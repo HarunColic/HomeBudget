@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Budzet</title>
+	<link rel="stylesheet" type="text/css" href="../CSS/stil.css">
+</head>
+<body>
+	<div class="Market">
+	<div id="Cont_Kupit">
+
+		<label id="Kupiti">
+			Kupiti
+		</label>
+
+		<label id="labelArtikal">
+			Artikal
+		</label>
+		<input type="text" name="Artikal" id="Artikal">
+		<input type="submit" name="Dodaj" placeholder="Dodaj" id="Dodaj" value="Dodaj" onclick="return onclickValidateArtikal()">
+		<ul>
+			<li> 3 hljeba <input type="checkbox" name="" ></li>
+			<li> Skajusa <input type="checkbox" name=""></li>
+		</ul>
+	</div>
+	<div class="Cont_Kupit1">
+		<label class="Lab">Potrošeno</label>
+		<input type="text" name="Potroseno" id="Potroseno">
+		<input type="submit" name="submit" id="Potr" value="Potroši" onclick="return onclickValidateUnos()">
+		</br>
+	</div>
+	</div>
+
+
+	<div id="Cont_Stanje">
+		<div style="text-align: center;">
+
+		<label id="ST">Stanje </label>
+
+		<label id="Stanje"> 300 KM</label>
+	</div>
+
+	</br>
+
+<label class="Lab">
+	Dodaj Cimera
+</label>
+<input type="text" name="name" id="Stanar" >
+<input type="Submit" name="Stanar" placeholder="Stanar" id="Sta" value="Unesi" onclick="return onclickValidateDodaj()">
+</br>
+<label id="Mjes">
+	Novi Mjesec
+</label>
+	<a href="novimjesec.html"><input type="Submit" name="Dugme" id="NoviMjesec" value="Unesi"></a>
+</br>
+
+</div>
+<div id="Cont_Stanari">
+	 <label id="Cimeri">
+		Cimeri
+	</label>
+
+	<div class="Cont_Stanari1">
+		<div class="cont1">
+			<p class="imee">Omer Memić</p><br>
+			<input type="text" placeholder="30" disabled="true"><span> / </span> 
+			<input type="text" placeholder="300" disabled="true">
+			<input type="submit" name="uplata" id="uplataa" value=" + " class="plusic" onclick=" return onclickPlusici()">
+			<br>
+			<p class="imee">Harun Čolić</p><br>
+			<input type="text" placeholder="" disabled="true"><span> / </span>
+			<input type="text" placeholder=" / 60">
+			<input type="submit" name="uplata" id="uplataa" value=" + " class="plusic">
+		</div>
+		<div class="cont2">
+			<p class="imee">Mirsad Halilčević</p><br>
+			<input type="text" placeholder=""><span> / </span>
+			<input type="text" placeholder=" / 60">
+			<input type="submit" name="uplata" id="uplataa" value=" + " class="plusic">
+			<br>
+			<p class="imee">Tarik Hodžić</p><br>
+			<input type="text" placeholder=""><span> / </span>
+			<input type="text" placeholder=" / 60">
+			<input type="submit" name="uplata" id="uplataa" value=" + " class="plusic">
+		</div>
+		<div class="cont3">
+			<p class="imee">Muriz Bošnjak</p><br>
+			<input type="text" placeholder=""><span> / </span>
+			<input type="text" placeholder=" / 60">
+			<input type="submit" name="uplata" id="uplataa" value=" + " class="plusic">
+			<br>
+			<p class="imee">Emir Karić</p><br>
+			<input type="text" placeholder=""><span> / </span>
+			<input type="text" placeholder=" / 60">
+			<input type="submit" name="uplata" id="uplataa" value=" + " class="plusic">
+		</div>
+		<div class="cont4">
+			<p class="imee">Murat Hrnjić</p><br>
+			<input type="text" placeholder=""><span> / </span>
+			<input type="text" placeholder=" / 60">
+			<input type="submit" name="uplata" id="uplataa" value=" + " class="plusic">
+			<br>
+			<p class="imee">Muamer Žabić</p><br>
+			<input type="text" placeholder=""><span> / </span>
+			<input type="text" placeholder=" / 60">
+			<input type="submit" name="uplata" id="uplataa" value=" + " class="plusic">
+		</div>
+		<input type="text" name="doplata" id="Doplata" placeholder="Unesite novu uplatu">
+	</div>
+</div>
+</body>
+
+<script type="text/javascript" src="../JavaScript/ValidacijaEvidencije.js"></script>
+</html>
